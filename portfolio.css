@@ -1,0 +1,310 @@
+   
+   
+   
+   
+   @media(max-width:290px){
+
+    .item2{
+        margin-top: 50%;
+    }
+   }
+   
+   a{text-decoration: none;
+        color: whitesmoke;
+        padding:0.5%;
+
+ }
+ a:hover{
+
+    text-decoration: none;
+    color:#12f7d6;
+    }
+
+ 
+
+
+
+        nav{font-size: 150%;
+        color:whitesmoke;
+       background-color:#282f37;
+       padding: 1.5%;
+       text-align:center;
+       display:block;
+       
+    
+    }
+
+
+  
+ 
+    *{
+ 
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+#logo::before{
+    margin-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    float: left;
+content: '</>reem';
+color:#12f7d6;
+}    
+ 
+.grid1{
+
+
+    display: flex;
+    background-color: #282f37;
+    height: 30%;
+    color:whitesmoke;
+    padding: 10%;
+    overflow-wrap: break-word;
+}
+
+
+
+
+.item1{
+font-size: 300%;
+overflow-wrap: break-word;
+    padding: 2%;
+grid-column:3/6 span;
+ 
+}
+
+
+
+.item2{
+
+    padding: 2%;
+    grid-column:7/12 span;
+ 
+    
+    }
+    #colorForName{
+
+    color: #12f7d6;
+}
+
+
+.button{
+
+    background-color: #12f7d6;
+    color:#282f37;
+    padding:4%;
+    font-size: 30%;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:25px;
+    border: solid 2px #12f7d6;
+}
+
+
+.section2{
+
+
+ height: 50%;
+display:flex;
+width: 100%;
+ background-color:whitesmoke;
+  
+}
+
+
+ 
+  
+.section2 > span{
+padding:2%;
+margin: 2%;
+ background-color: #12f7d6;
+   opacity: 0.7;
+    width:40%;
+    height: 40%;
+   
+}
+
+
+
+.heading{
+ font-size: 400%;
+color:#282f37;
+background-color:whitesmoke;
+display: block;
+}
+
+
+footer{
+    background-color: #282f37;
+    display: grid;
+    color: whitesmoke;
+    padding: 2%;
+    margin: auto;
+ }
+
+
+
+.fsection1{
+ 
+ grid-column: 1/6 span ;
+grid-row: 1/12 span;
+}
+
+
+
+.fsection2{
+     grid-column: 6/12 span ;
+    grid-row: 1/12 span;
+    }
+    
+    @media (max-width:824Px) {
+        .item1{
+            font-size: 100%;
+            overflow-wrap: break-word;
+                padding: 2%;
+            grid-column:3/6 span;
+
+            
+            }
+        
+            nav{font-size: 100%;
+                color:whitesmoke;
+               background-color:#282f37;
+               padding: 0.5%;
+               text-align:center;
+               display:block;
+               
+            
+            }
+
+            .section2{
+
+
+                height: 40%;
+                display:flex;
+                width: auto;
+                background-color:rgb(134, 34, 34);
+                 flex-direction: column;
+                 
+               }
+               
+               .section2 > span{
+                 margin:2%;
+                 margin-left:10%;
+                    width:400PX;
+                    height: 700PX;
+                    
+                }
+                
+                
+        
+        }
+
+            
+
+
+
+        @media (max-width:320Px) {
+            .item1{
+                font-size: 200%;
+                overflow-wrap: break-word;
+                    padding: 2%;
+                grid-column:3/6 span;
+    
+                
+                }
+            
+                nav{font-size: 100%;
+                    color:whitesmoke;
+                   background-color:#282f37;
+                   padding: 0.5%;
+                   text-align:center;
+            
+                   display:block;
+                   
+                
+                }
+    
+                .section2{
+    
+    
+                    height: 40%;
+                   display:flex;
+                   width: auto;
+                    background-color:whitesmoke;
+                     flex-direction: column;
+                     
+                   }
+                   
+                   .section2 > span{
+                   background-color:#12f7d6;
+                       width: 20%;
+                       padding:5%;
+                       height: 20%;
+                    }
+                    
+
+                    
+.heading{
+    font-size: 400%;
+   color:#282f37;
+    
+ 
+   display: block;
+   }
+
+
+   *{margin: 0%;
+padding: 0%;}
+   
+   
+                    
+            
+            }
+
+
+
+            .section3{
+
+
+                background-color: red;
+                color:#12f7d6
+            }
+
+
+            #addContent{
+
+ 
+
+
+            }
+
+
+
+            .contactSection{
+           
+            
+
+
+            }
+
+
+
+            .addText::before{
+
+                 color:#12f7d6;
+                content: '<contact me />';
+            }
+
+
+            #img{
+
+                padding:1%;
+            }
+
+
+
+           
